@@ -2,7 +2,7 @@
 
 This is a simple pomodoro timer built for personal use ( but you can use too ) for productivity💯
 
-### It is deployed [here]
+### It is deployed [here](https://belinhamesmo.github.io/Pomodoro-timer/)
 
 ---
 
