@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Pomodoro Timer 🔔| belinhamesmo </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pomodoro Timer ⏲</h1>
+
+    <figure class="clock">
+      <div class="mins">0</div>
+      <div>:</div>
+      <div class="secs">00</div>
+      <audio class="audio"
+        src="http://soundbible.com/mp3/service-bell_daniel_simion.mp3"
+      ></audio>
+      <svg class="progress-ring" height="120" width="120">
+        <circle
+          class="progress-ring__circle"
+          stroke-width="8"
+          fill="transparent"
+          r="50"
+          cx="60"
+          cy="60"
+        />
+      </svg>
+    </figure>
+
+    <div class="btn-group">
+      <button class="start">start</button>
+      <button class="reset">reset</button>
+      <button class="pause">pause</button>
+    </div>
+  
+    <form action="." class="form1">
+      <p>Timer Configuration!</p>
+      <br>
+      <label for="focusTime">Work Time in minuts</label>
+      <input type="number" value="1" id="focusTime" />
+      <label for="breakTime">Break Time</label>
+      <input type="number" value="1" id="breakTime" />
+      <button type="submit" name= "save" onClick= Message()>Save settings</button>
+    </form>
+    <br>
+    <br>
+    <div class="about">
+      <h2>What is Pomodoro Technique?</h2>
+      <p> 
+        The Pomodoro Technique is a time management system that encourages people to work with the time they have—rather than against it. Using this method, you break your workday into 25-minute chunks separated by five-minute breaks. These intervals are referred to as pomodoros.</p>
+         <br>
+              <h2> Step by Step</h2>
+              <p> 
+              <li>
+                Escolher e listar as tarefas a serem executadas;</li>
+
+              <li>Ajustar o cronômetro para o tempo desejado (geralmente 25 minutos);</li>  
+               <li> Escolher a tarefa inicial; </li>
+               <li>Trabalhar na tarefa escolhida até que o alarme toque. Se alguma distração importante surgir, anotá-la e voltar o foco imediatamente de volta à tarefa;</li>
+                Quando o alarme tocar, fazer uma marcação em um papel para contabilizar a quantidade de intervalos.
+                Se houver menos de 4 marcações, fazer uma pausa curta (3-5 minutos);
+                Depois da quarta marcação, fazer uma pausa mais longa (10-30 minutos), zerando a contagem de marcações e retornando ao passo 1.
+              </li> 
+              </p>
+      </div>
+    <footer>
+      Developed by
+      <a
+        href="https://www.youtube.com/channel/UC74BFCI_FbThOjUqx6gmccg"
+        target="_blank"
+        >belinhamesmo.jobs</a
+      >
+    </footer>
+
+    <script src="settings.js"></script>
+    <script src="timer.js"></script>
+    <script src="progress.js"></script>
+  </body>
+</html>
