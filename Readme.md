@@ -1,8 +1,8 @@
 # Pomodoro Timer with 🛎
 
-This is a simple pomodoro timer built for personal use ( any one can use ) for productivity💯
+This is a simple pomodoro timer built for personal use ( but you can use too ) for productivity💯
 
-### It is deployed [here](https://abhik-b.github.io/pomodro-timer/)
+### It is deployed [here]
 
 ---
 
@@ -19,12 +19,5 @@ This is a simple pomodoro timer built for personal use ( any one can use ) for p
 
 ---
 
-# Scores :
+# Screenshot
 
-Lighthouse scores:
-
-![Lighthousescore](https://github.com/abhik-b/pomodro-timer/blob/master/lighthouse.png)
-
-PageSpeed Insights scores:
-
-![Pagespeedinsights](https://github.com/abhik-b/pomodro-timer/blob/master/pagespeedinsights.png)
